@@ -4,4 +4,10 @@
 
 ![](https://i.imgur.com/9wo5OIM.gif)
 
-> Pardon my French
+# gradle dependency
+
+>Add this to your module's build.gradle file:
+
+**dependency**
+```java
+implementation 'com.github.Greymamba:Rangebar:1.2.1'
