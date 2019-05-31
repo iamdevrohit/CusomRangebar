@@ -17,8 +17,6 @@
         android:layout_height="wrap_content" />
 
 
-
-
     <com.example.blackmambalibrary.widgets.BlackmambaRangebar
         android:id="@+id/rangeseekbar"
         android:layout_marginTop="10dp"
