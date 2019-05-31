@@ -9,30 +9,29 @@ import com.example.blackmambalibrary.widgets.BlackmambaRangebar;
 
 public class MainActivity extends AppCompatActivity {
 
-    BlackmambaRangebar blackmambaRangebar;
-    TextView tvstartvalue,tvstopvalue;
+        BlackmambaRangebar blackmambaRangebar;
+        TextView tvstartvalue,tvstopvalue;
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        bindViews();
+        @Override
+        protected void onCreate(Bundle savedInstanceState) {
+            super.onCreate(savedInstanceState);
+            setContentView(R.layout.activity_main);
+            bindViews();
 
-        blackmambaRangebar.setOnRangeSeekbarChangeListener(new OnRangeSeekbarChangeListener() {
-            @Override
-            public void valueChanged(Number minValue, Number maxValue) {
+            blackmambaRangebar.setOnRangeSeekbarChangeListener(new OnRangeSeekbarChangeListener() {
+                @Override
+                public void valueChanged(Number minValue, Number maxValue) {
 
-                tvstartvalue.setText(String.valueOf(minValue));
-                tvstopvalue.setText(String.valueOf(maxValue));
-            }
-        });
+                    tvstartvalue.setText(String.valueOf(minValue));
+                    tvstopvalue.setText(String.valueOf(maxValue));
+                }
+            });
+
+        }
+        private void bindViews() {
+            blackmambaRangebar =findViewById(R.id.rangeseekbar);
+            tvstartvalue=findViewById(R.id.tvstartvalue);
+            tvstopvalue=findViewById(R.id.tvstopvalue);
 
     }
-    private void bindViews() {
-        blackmambaRangebar =findViewById(R.id.rangeseekbar);
-        tvstartvalue=findViewById(R.id.tvstartvalue);
-        tvstopvalue=findViewById(R.id.tvstopvalue);
-
-    }
-
 }
