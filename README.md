@@ -1,5 +1,6 @@
 # Rangebar
+![](https://i.imgur.com/9wo5OIM.gif)
 
-here custom rangeseekbar i've made for project 
+- add this dependency to your gradle file
 
-![](https://i.imgur.com/9u9Zy4U.gif)
+> Pardon my French
