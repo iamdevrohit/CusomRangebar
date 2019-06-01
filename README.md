@@ -75,4 +75,3 @@ allprojects {
 This library was made by possible based on code and design inspiration from:
 
 https://github.com/syedowaisali/crystal-range-seekbar
-https://pages.github.com/.
