@@ -14,7 +14,7 @@
 implementation 'com.github.Greymamba:Rangebar:1.2.1'
 ```
 **Reposetory**
->Add this to your module's build.gradle file:
+>Add this in your root build.gradle file (not your module build.gradle file):
 >
 ```java
 allprojects {
