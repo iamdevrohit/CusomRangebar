@@ -72,6 +72,6 @@ allprojects {
 ```
 # Inspiration
 <br/>
-This library was made by possible based on code and design inspiration from:
+This library was made possible by based on code and design inspiration from:
 
 https://github.com/syedowaisali/crystal-range-seekbar
