@@ -1,4 +1,4 @@
-# Rangebar
+# CustomRangebar
 
 **It is similar to an enhanced SeekBar widget, though it doesn't make use of the SeekBar. It provides for the selection of a range of values.This is my first library project.**
 
